@@ -19,21 +19,7 @@ The impact of improving disease diagnosis and prediction using machine learning 
 
 #The Data: 
 
-1- The resource for the main dataset: 
-
-https://www.kaggle.com/code/aashidutt3/lung-cancer-detection-using-classification/in put 
-
-This dataset contains 16 columns as the following : 1. Gender: M(male), F(female), 2. Age: Age of the patient, 3. Smoking: YES=2, NO=1., 4. Yellow fingers: YES=2 , NO , 5. Anxiety: YES=2, NO=1., 6. Peer_pressure: YES=2,NO=1 , 7. Chronic Disease: YES=2, NO=1., 8. Fatigue: YES=2 , NO=1., 9. Allergy: YES=2, NO=1. , 10. Wheezing: YES=2, NO=1. , 11. Alcohol: YES=2, 
-
-NO=1., 12. Coughing: YES=2, NO=1. , 13. Shortness of Breath: YES=2, NO=1, 
-
-14. Swallowing Difficulty: YES=2, NO=1. , 15. Chest pain: YES=2, NO=1. , 16. Lung Cancer: YES OR NO. 
-
-Another possible resource: 
-
-https://www.kaggle.com/code/anaghakp/lung-cancer-prediction-logistic-regression-m odel/input 
-
-The dataset contains the following information : age, gender, air pollution exposure, alcohol use, dust allergy, occupational hazards, genetic risk, chronic lung disease, balanced diet, obesity, smoking status, passive smoker status, chest pain, coughing of blood, fatigue levels , weight loss , shortness of breath , wheezing , swallowing difficulty , clubbing of finger nails , frequent colds , dry coughs , and snoring. The columns are described by level. 
+The resource for the main dataset: https://www.cdc.gov/brfss/annual_data/annual_2021.html
 
 Useful research article for lung cancer risk level determination: 
 

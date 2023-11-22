@@ -18,25 +18,27 @@ The impact of improving disease diagnosis and prediction using machine learning 
 ## Part 5: Cancer prediction Dataset
 We've condensed our dataset from 438,693 rows and 303 columns down to just 18 columns. These specific columns were identified as the most critical features following our exploratory data analysis (EDA).
 
-- _RFHLTH	: Adults with good or better health	(1:Good or Better Health, 2:Fair or Poor Health, 9:Don’t know/Not Sure Or Refused/Missing)
-- SEXVAR:	Sex of Respondent	(1:Male, 2:Female)
-TOLDHI3	High cholesterol levels	1:Yes, 2:No , 7:Don’t know/Not Sure Or Refused/Missing
-CHECKUP1	About how long has it been since a person visited a doctor for a routine checkup	1:within past year, 2:Within past 2 years, 3:Within past 5 years ,4: 5 or more years ago , 7:Don’t know/Not sure, 8:Never , 9:Refused
-CHECKUP1	About how long has it been since a person visited a doctor for a routine checkup	1:within past year, 2:Within past 2 years, 3:Within past 5 years ,4: 5 or more years ago , 7:Don’t know/Not sure, 8:Never , 9:Refused
-CHCCOPD3	A person had C.O.P.D. (chronic obstructive pulmonary disease), emphysema or chronic bronchitis	1:Yes, 2:No , 7:Don’t know/Not Sure, 9: Refused
-HAVARTH5	A person had some form of arthritis, rheumatoid arthritis, gout, lupus, or fibromyalgia	1:Yes, 2:No , 7:Don’t know/Not Sure, 9: Refused
-DIABETE4	A person had diabetes	1:Yes, 2:Yes, but female told only during pregnancy , 3:No , 4:No, pre-diabetes or borderline diabetes, 7:Don’t know/Not Sure, 9: Refused
-_RFHYPE6	Adults who have been told they have high blood pressure	1:No, 2:Yes, 9:Don’t know/Not Sure/Refused/Missing
-_PHYS14D	3 level not good physical health status: 0 days, 1-13 days, 14-30 days	1:Zero days when physical health not good, 2:(1-13) days when physical health not good, 3:(14+) days when physical health not good , 9:Don’t know/Not Sure/Refused/Missing
-_AGE_G	Six-level imputed age category	1:Age 18 to 24, 2:Age 25 to 34, 3: Age 35 to 44 , 4:Age 45 to 54 , 5:Age 55 to 64 , 6:Age 65 or older
-_IMPRACE	Imputed race/ethnicity value	1: White, Non-Hispanic, 2: Black, Non-Hispanic, 3: Asian, Non-Hispanic,4:American Indian/Alaskan Native, Non-Hispanic, 5:Hispanic, 6:Other race, Non-Hispanic
-_RFBMI5	Adults who have a body mass index greater than 25.00 (Overweight or Obese)	1:No , 2:Yes, 9:Don’t know/Refused/Missing
-_SMOKER3	Four-level smoker status: Everyday smoker, Someday smoker, Former smoker, Non-smoker	1:Current smoker, 2:Current smoker, 3:Former smoker , 4:Never smoked, 9:Don’t know/Refused/Missing
-_RFDRHV7	Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week)	1:No , 2:Yes, 9:Don’t know/Refused/Missing
-_TOTINDA	Adults who reported doing physical activity or exercise during the past 30 days other than their regular job	1:Had physical activity or exercise, 2:No physical activity or exercise in last 30 days, 9:Don’t know/Refused/Missing
-CHCKDNY2	kidney disease presence	1:Yes, 2:No , 7:Don’t know / Not sure , 9:refused
-_FRTLT1A	Consume Fruit 1 or more times per day	1:Consumed fruit one or more times per day, 2:Consumed fruit < one time per day , 9:Don´t know, refused or missing values
-Cancer	Risk of presence or absence of Cancer	1:Presence of Cancer ,0:Absence of Cancer
+- _RFHLTH	Adults with good or better health	(1:Good or Better Health, 2:Fair or Poor Health, 9:Don’t know/Not Sure Or Refused/Missing)
+- dteday : date
+- season : season (1:springer, 2:summer, 3:fall, 4:winter)
+- yr : year (0: 2011, 1:2012)
+- mnth : month ( 1 to 12)
+- hr : hour (0 to 23)
+- holiday : whether day is holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
+- weekday : day of the week
+- workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
++ weathersit : 
+	- 1: Clear, Few clouds, Partly cloudy, Partly cloudy
+	- 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+	- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+	- 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+- temp : Normalized temperature in Celsius. The values are divided to 41 (max)
+- atemp: Normalized feeling temperature in Celsius. The values are divided to 50 (max)
+- hum: Normalized humidity. The values are divided to 100 (max)
+- windspeed: Normalized wind speed. The values are divided to 67 (max)
+- casual: count of casual users
+- registered: count of registered users
+- cnt: count of total rental bikes including both casual and registered
 
 ## Part 6: Data Download, Cleaning & Exploratory Data Analysis
 

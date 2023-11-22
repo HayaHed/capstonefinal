@@ -18,13 +18,13 @@ The impact of improving disease diagnosis and prediction using machine learning 
 ## Part 5: Cancer prediction Dataset
 We've condensed our dataset from 438,693 rows and 303 columns down to just 18 columns. These specific columns were identified as the most critical features following our exploratory data analysis (EDA).
 
-- _RFHLTH	Adults with good or better health	(1:Good or Better Health, 2:Fair or Poor Health, 9:Don’t know/Not Sure Or Refused/Missing)
-- dteday : date
-- season : season (1:springer, 2:summer, 3:fall, 4:winter)
-- yr : year (0: 2011, 1:2012)
-- mnth : month ( 1 to 12)
-- hr : hour (0 to 23)
-- holiday : whether day is holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
+- _RFHLTH: Adults with good or better health (1:Good or Better Health, 2:Fair or Poor Health, 9:Don’t know/Not Sure Or Refused/Missing)
+- SEXVAR: Sex of Respondent (1:Male, 2:Female)
+- TOLDHI3: High cholesterol levels (1:Yes, 2:No , 7:Don’t know/Not Sure Or Refused/Missing)
+- CHECKUP1: About how long has it been since a person visited a doctor for a routine checkup (1:within past year, 2:Within past 2 years, 3:Within past 5 years ,4: 5 or more years ago , 7:Don’t know/Not sure, 8:Never , 9:Refused)
+- CHCCOPD3: A person had C.O.P.D. (chronic obstructive pulmonary disease), emphysema or chronic bronchitis (1:Yes, 2:No , 7:Don’t know/Not Sure, 9: Refused)
+- HAVARTH5: A person had some form of arthritis, rheumatoid arthritis, gout, lupus, or fibromyalgia (1:Yes, 2:No , 7:Don’t know/Not Sure, 9: Refused)
+- DIABETE4: A person had diabetes (1:Yes, 2:Yes, but female told only during pregnancy , 3:No , 4:No, pre-diabetes or borderline diabetes, 7:Don’t know/Not Sure, 9: Refused)
 - weekday : day of the week
 - workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
 + weathersit : 

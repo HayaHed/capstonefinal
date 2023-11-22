@@ -25,10 +25,9 @@ We've condensed our dataset from 438,693 rows and 303 columns down to just 18 co
 - CHCCOPD3: A person had C.O.P.D. (chronic obstructive pulmonary disease), emphysema or chronic bronchitis (1:Yes, 2:No , 7:Don’t know/Not Sure, 9: Refused)
 - HAVARTH5: A person had some form of arthritis, rheumatoid arthritis, gout, lupus, or fibromyalgia (1:Yes, 2:No , 7:Don’t know/Not Sure, 9: Refused)
 - DIABETE4: A person had diabetes (1:Yes, 2:Yes, but female told only during pregnancy , 3:No , 4:No, pre-diabetes or borderline diabetes, 7:Don’t know/Not Sure, 9: Refused)
-- weekday : day of the week
-- workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
-+ weathersit : 
-	- 1: Clear, Few clouds, Partly cloudy, Partly cloudy
+- _RFHYPE6: Adults who have been told they have high blood pressure (1:No, 2:Yes, 9:Don’t know/Not Sure/Refused/Missing)
+- PHYS14D: 3 level not good physical health status: 0 days, 1-13 days, 14-30 days (1:Zero days when physical health not good, 2:(1-13) days when physical health not good, 3:(14+) days when physical health not good , 9:Don’t know/Not Sure/Refused/Missing)
+- _AGE_G: Six-level imputed age category (1:Age 18 to 24, 2:Age 25 to 34, 3: Age 35 to 44 , 4:Age 45 to 54 , 5:Age 55 to 64 , 6:Age 65 or older)
 	- 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
 	- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
 	- 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog

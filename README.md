@@ -7,7 +7,7 @@ Cancer diagnosis and risk prediction remains a significant public health challen
 
 The users who experience these problems are healthcare professionals such as doctors and genetic counsellors, patients, radiologists and healthcare systems. Healthcare professionals would benefit from improved risk prediction tools that can assist in making more accurate and early diagnoses and therefore performing further analysis as required. Patients would benefit from early cancer detection, leading to better treatment outcomes. Healthcare systems would benefit from reduced costs associated with late-stage disease treatments. 
 
-## Part 3: The Big Idea
+## Part 3: Machine Learning and Cancer Prediction
 
 Machine learning can bring significant solutions to cancer prediction by leveraging its ability to analyze and learn from large datasets, identify patterns, and make predictions.It can assess a person's risk of developing lung cancer by considering various factors, including their medical history (chronic diseases and allergies), genetic profile, and lifestyle choices.Specifically, it can assess the risk associated with predominant risk factors like  age,chronic diseases , being overweight or obese , and poor health condition. Predictive models can help identify individuals who may benefit from early screening or lifestyle interventions. Overall , different variables can be analyzed using machine learning algorithms to identify patterns and correlations, the predictive model can provide assessment of a patient's risk of developing cancer.
 

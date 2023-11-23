@@ -11,7 +11,7 @@ The users who experience these problems are healthcare professionals such as doc
 
 Machine learning can bring significant solutions to cancer prediction by leveraging its ability to analyze and learn from large datasets, identify patterns, and make predictions.It can assess a person's risk of developing lung cancer by considering various factors, including their medical history (chronic diseases and allergies), genetic profile, and lifestyle choices.Specifically, it can assess the risk associated with predominant risk factors like  age,chronic diseases , being overweight or obese , and poor health condition. Predictive models can help identify individuals who may benefit from early screening or lifestyle interventions. Overall , different variables can be analyzed using machine learning algorithms to identify patterns and correlations, the predictive model can provide assessment of a patient's risk of developing cancer.
 
-## Part 4: The Impact
+## Part 4: The Impact of Early Cancer Detection
 
 The impact of improving disease diagnosis and prediction using machine learning is substantial.Cancer typically takes several years to manifest symptoms, and once it does, the progression will be fast and painful.Therefore, early detection can lead to more effective treatments, potentially saving lives and improving the quality of life for patients. Moreover, it can significantly reduce healthcare costs by shifting the focus from late-stage, expensive treatments to cost-effective preventive and early intervention strategies. The scale of the problem is vast, with millions of lives affected, trillions of dollars spent on healthcare worldwide, and significant time and resources allocated to treating advanced diseases. 
 

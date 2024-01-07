@@ -63,13 +63,17 @@ In this project, during data cleaning, we processed 438,693 rows and 303 columns
 - '_FRTLT1A_1.0' and '_FRTLT1A_2.0' shows very weak association (Cramér's V ≈ 0.022 ,0.013) with cancer.Consuming a diet abundant in fruits and vegetables is often linked to a reduced risk of specific cancers. However, certain fruits, particularly those high in sugar, might indirectly contribute to weight gain or obesity, potentially increasing the likelihood of developing certain types of cancer.
 
 ## Part 7: Modeling
-For modeling, our approach lays a strong foundation by incorporating baseline models and thorough data preprocessing techniques. This encompasses handling data imbalance using specific parameters to ensure balanced scores between both classes in our dataset, along with the grouping of infrequent categorical values and the application of Principal Component Analysis (PCA). We introduce two primary baseline models, Logistic Regression, and Random Forest, assessed both with and without PCA. This comprehensive evaluation allows us to understand the impact of dimensionality reduction on model performance, ensuring a comprehensive assessment of the models' capabilities.
+For modeling, our approach lays a strong foundation by incorporating baseline models and thorough data preprocessing techniques. This encompasses handling data imbalance using specific parameters to ensure balanced scores between both classes in our dataset, along with the grouping of infrequent categorical values and the application of Principal Component Analysis (PCA). We introduce and assess four key models—Logistic Regression, Random Forest, XGBoost, and Neural Network—evaluating their performance both with and without PCA. This comprehensive evaluation allows us to understand the impact of dimensionality reduction on model performance, ensuring a comprehensive assessment of the models' capabilities.
 
 The evaluation framework centers on key metrics like accuracy, recall, precision, F1 score, and the Receiver Operating Characteristic Area Under the Curve (ROC-AUC). Our emphasis extends beyond accuracy, prioritizing metrics like recall and precision, crucial for practical application scenarios.The models' performance is comprehensively assessed and compared across various dimensions: recall scores, the balance between recall and precision, the harmonized F1 score, and the overall discriminative capability represented by ROC-AUC.
 
 **Top key insights obtained from Data Modeling were as the following:**
-- Both Logistic Regression and Random Forest models without PCA exhibit slightly better performance in terms of recall, AUC, and precision-recall balance compared to their PCA counterparts.
+- All models without PCA exhibit slightly better performance in terms of recall, AUC, and precision-recall balance compared to their PCA counterparts.
 - The Logistic Regression model without PCA shows a marginal advantage with higher accuracy and ROC-AUC scores compared to the Random Forest model. It maintains a balanced precision-recall trade-off, particularly showcasing a high recall while maintaining a reasonable precision.
+- The Neural Network exhibits slightly better metrics on the training set (PR AUC and ROC AUC) compared to other models.
+- On the test set, the XGBoost model maintains a slightly higher PR AUC and ROC AUC than the other models, indicating better generalization.
+- XGBoost demonstrates more consistent performance between training and test sets compared to other models, implying better generalization ability.
+- Ultimately, the XGBoost model emerges as the preferable choice due to its slightly superior and more balanced performance across various metrics and datasets.
 
 
 
